@@ -1,0 +1,16 @@
+CEREZAS DE IDENTIDAD — juego en Phaser 3
+
+Archivos
+  index.html   página del juego (carga Phaser 3.80.1 desde cdnjs)
+  game.js      todo el código: escenas Boot, Loading, Dress y Game
+  loading.png  imagen de la pantalla de carga (960x600). Reemplázala por la tuya con el mismo nombre.
+
+Cómo abrirlo
+  Phaser necesita un servidor local para cargar imágenes (abrir con doble clic no funciona).
+  - VS Code: extensión "Live Server" → clic derecho en index.html → "Open with Live Server"
+  - o en una terminal dentro de esta carpeta:  python -m http.server 8000   y abre http://localhost:8000
+
+Dónde cambiar cosas (game.js)
+  ITEMS     prendas: nombre, parte del cuerpo y dibujo
+  CONCEPTS  textos de las ventanas sobre identidad personal y la pregunta "Para pensar"
+  TOTAL     número de cerezas (una por concepto)
